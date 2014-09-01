@@ -258,10 +258,34 @@ aside{
 #contenido .item .votacion a{
 	text-decoration: none;
 }
+.formulario{
+	background: red;
+	padding: 1em;
+	text-align: right;
+	display: none;
+	position: absolute;
+	left: 0px;
+	right:0;
+	z-index: 4
+}
+.formulario input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="submit"]{
+	background: #4db1db;
+	font-style: italic;
+	color: #fff;
+	border:none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.5) 2px 2px 20px;
 
+}
 @media screen and (min-width:800px){
 aside{
-	width:15%;
+	width:20%;
+	margin-top: 3em;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -283,26 +307,5 @@ aside{
  	float: left;
  
  }
-.formulario{
-	padding: 1em;
-	text-align: right;
-	display: none;
-	position: absolute;
-	left: 0px;
-	right:0;
-	z-index: 4
-}
-.formulario input{
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	padding: 0.2em 0.6em;
-}
-.formulario input[type="submit"]{
-	background: #4db1db;
-	font-style: italic;
-	color: #fff;
-	border:none;
-	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
-	box-shadow: rgba(0,0,0,0.5) 2px 2px 20px;
 
 }
