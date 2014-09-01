@@ -6,6 +6,7 @@ $(function(){
 		console.log('HHmm no puedo saber tu ubicacions')
 	}
 	function geo_exito(posicion){
+		console.log(posicion)
 		var lat = posicion.coords.latitude;
 		var lon = posicion.coords.longitude;
 		var mapa = new Image();
